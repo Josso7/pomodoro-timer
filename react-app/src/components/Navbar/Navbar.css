@@ -1,0 +1,33 @@
+*  {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-container {
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid green;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.navbar-timer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-timer-wrapper {
+    height: 65px;
+    width: 100px;
+    border: 1px solid lightgreen;
+    border-radius: 20%;
+    /* justify-content: flex-end; */
+    margin-left: auto;
+    margin-right: 20px;
+    align-self: center;
+}
